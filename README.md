@@ -88,7 +88,7 @@ python main.py -g 0 -wave_dims 64 -train (-test) -id 0 \
 
 Explanation for the new options:
 
-* `-cn/--cn_model`: the choice of SEPN. Default is UNet,
+* `-cn/--cn_model`: the choice of SEPN. Default is UNet.
 * `-ks/--kernel_size`: kernel size of convolution layers of SEPNs.
 * `-FM_num`: number of feature maps, refer to F_1, F_2 and F_3 in the paper.
 * `-misu/--meas_IS_unitary (-miss/--meas_IS_separable)`: whether implementing DAT in unitary or separable mode. `-misu` for unitary mode and `-miss` for separable mode.
